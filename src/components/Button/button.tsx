@@ -10,7 +10,7 @@ export const Button = (props: ButtonProps) =>
 
     const handler = () =>
     {
-        console.log('hey')
+        console.log('wow')
     }
 
     if (!onClick) return <button data-testid={"button-test"} onClick={handler}>Button</button>
