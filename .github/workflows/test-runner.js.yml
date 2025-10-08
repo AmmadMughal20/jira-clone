@@ -2,12 +2,13 @@ name: jest-runner
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main", "**" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "main", "**" ]
 
 jobs:
   build:
+    name: jest-runner
     runs-on: ubuntu-latest
 
     strategy:
